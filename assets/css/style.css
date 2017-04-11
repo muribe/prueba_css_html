@@ -32,7 +32,12 @@ button.btn.btn-primary.btn-lg {
   padding:25px;
   text-align:center;
 }
-
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
 .line {
   padding-top:20px;
   white-space:no-wrap;
@@ -61,7 +66,7 @@ header .header-text .header-heading {
     margin-bottom: 50px;
 }
 
-section#aburrido {
+section.aburrido {
     text-align: center;
 }
 .col-md-6.contact-form {
