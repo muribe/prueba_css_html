@@ -1,176 +1,98 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+header {
+  padding-top: 50px;
 
-body,
-html {
-    width: 100%;
-    height: 100%;
 }
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-
-.topnav {
-    font-size: 14px; 
-}
-
-img.logo {
-    width: 27%;
-}
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.intro-header {
-    padding-top: 50px; 
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/fondo.jpg) no-repeat center center;
-    background-size: cover;
-}
-nav.navbar.navbar-default.navbar-fixed-top.topnav {
+nav.navbar.navbar-default.navbar-fixed-top {
     background-color: black;
     border-color: black;
 }
-.intro-message {
+a.page-scroll.btn.btn-lg.btn-info {
+    position: absolute;
+    left: 41%;
+}
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+  background-image:url('../img/fondo.jpg');
+  background-size:cover;
+}
+button.btn.btn-primary.btn-lg {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    left: 85%;
+}
+.wide img {
+  width:100%;
 }
 
-.intro-message > h1 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+.logo {
+  color:#fff;
+  font-weight:800;
+  font-size:14pt;
+  padding:25px;
+  text-align:center;
 }
 
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+.line {
+  padding-top:20px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
 }
-
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-@media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-}
-
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
+header .header-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
     color: white;
-    background-color: black;
-    background-size: cover;
+}
+header{
+  text-align: center;
+}
+header .header-text .header-lead-in {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
 }
 
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
+header .header-text .header-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
 }
 
-.banner ul {
-    margin-bottom: 0;
+section#aburrido {
+    text-align: center;
+}
+.col-md-6.contact-form {
+    padding-top: 10%;
+}
+section.clients img {
+    margin: 50px auto;
+    position: static;
+}
+.hack{
+  background-color: #eee;
+}
+footer{
+  background-color: #eee;
+  padding: 25px 0;
+  text-align: center;
+}
+.perfil {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
+.perfil img {
+    margin: 0 auto;
+    border: 7px solid #fff;
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
+.img-circle {
+    border-radius: 50%;
 }
 
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-p.copyright {
-    margin: 15px 0 0;
+hr.divider {
+    border-top: 4px dashed black;
 }
